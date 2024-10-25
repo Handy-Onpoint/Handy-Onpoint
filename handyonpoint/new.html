@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Handy Services Website</title>
+  <link rel="stylesheet" href="/handyonpoint/new.css">
+</head>
+<body>
+<!-- Accessibility Tool Tab -->
+<div class="accessibility-tab" id="accessibilityTab" onclick="toggleAccessibilityPanel()">
+    Acccessibility
+  </div>
+  
+  <!-- Accessibility Tool Panel -->
+  <div class="accessibility-panel" id="accessibilityPanel">
+    <div class="accessibility-header">
+        <h2>Accessibility Tools</h2>
+        <button class="close-btn" onclick="toggleAccessibilityPanel()">X</button>
+    </div>
+  
+    <!-- Accessibility Options -->
+    <div class="accessibility-options">
+        <h3>Text Size</h3>
+        <button onclick="adjustTextSize('small')">Small</button>
+        <button onclick="adjustTextSize('normal')">Normal</button>
+        <button onclick="adjustTextSize('large')">Large</button>
+  
+        <h3>Contrast</h3>
+        <button onclick="setContrast('normal')">Normal Contrast</button>
+        <button onclick="setContrast('high')">High Contrast</button>
+  
+        <h3>Screen Reader</h3>
+        <button onclick="toggleScreenReader()">Toggle Screen Reader</button>
+    </div>
+  </div>
+  
+  <header class="header">
+    
+      <img class="icon" src="/handyonpoint/Handy Onpoint Company Logo.png" alt="">
+    
+      <nav class="navig">
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" id="home">Home</a></li>
+            <li><a href="about.html#about" >About Handy</a></li>
+        </ul>
+    </nav>
+  </header>
+  <section>
+    <h2 class="slogan">'Repairs Big & Small,&nbsp; We Fix Em' All'</h2>
+    <h1 class="toptitle">Chicagoland HandyMan</h1>
+  </section>
+
+  <!-- Small text and call button -->
+  <section class="phone">
+    <p class="small-text">For Best Price</p>
+    <p class="small-text">Call Us Anytime</p>
+    
+    <!-- Call button (for mobile devices) -->
+    <a href="tel:+13123833736" class="call-button">312-383-3736</a>
+  </section>
+
+  <div class="video-container">
+    <video controls>
+      <source src="/handyonpoint/Handy Work Footage.mp4" type="video/mp4">
+      <source src="/handyonpoint/Handy Work Footage.webm" type="video/webm">
+      <source src="your-video.ogv" type="video/ogg">
+      <!-- Fallback for browsers that do not support the video tag -->
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <h1>Our Skills</h1>
+  <ul >
+    <li>TV Mount</li>
+    <li>Paint</li>
+    <li>Clean</li>
+    <li>Plumbing</li>
+    <li>Drywall</li>
+    <li>Floors</li>
+    <li>Lawn Care</li>
+  </ul>
+  <footer>
+    <h1>Why Choose Us</h1>
+    <p>Trusted & Experienced</p>
+    <p>Quick Respnse</p>
+    <p>Local Experts</p>
+    
+    <div class="social-links">
+        <p class="ig">Follow us on Instagram</p>
+      <a href="https://www.instagram.com/handy_onpoint/" target="_blank">
+        <img class="igicon" src="/handyonpoint/instagram.png" alt="pic not showing">
+      </a>
+    </div>
+    <div class="bottom-section">
+        <p>© 2024 Your Company LLC. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/handyonpoint/script.js"></script>
+</body>
+</html>
