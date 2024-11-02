@@ -1,0 +1,19 @@
+{
+    "short_name": "AppName",
+    "name": "Full Application Name",
+    "icons": [
+      {
+        "src": "/Unnamed Site 2/handyonpoint/Handy Onpont Company Logo.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/Unnamed Site 2/handyonpoint/Handy Onpont Company Logo.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone"
+  }
+  
